@@ -1,0 +1,39 @@
+body{
+	background-color: #80d4ea;
+}
+div{
+	display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+	text-align: center;
+	font-family: courier, monospace;
+	color: white;
+	font-size: 30px;
+}
+input{
+	padding: 10px 20px;
+}
+button{
+	padding:  10px 20px;
+}
+#divAustin, #NewYorkDiv, #londonDiv, #laDiv{
+	margin: 0;
+	padding: 70px 0 0 0;
+	font-family: courier, monospace;
+	color: white;
+	font-size: 30px;
+}
+h2{
+	font-family: courier, monospace;
+	color: white;
+	margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+	#divAustin, #NewYorkDiv, #londonDiv, #laDiv , .header{
+		font-size: 15px;
+	}
+}
